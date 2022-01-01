@@ -3531,7 +3531,20 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+			#logo { 
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 40%;
+				border-radius: 15px 50px 30px;
+				width: 400px;
+				height: 200px;
 			 
+			}
+		#h1logo{
+			border-bottom-width: 104px !important;
+			margin-bottom: 40px !important;
+			}
 		}
 
 		
