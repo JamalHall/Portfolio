@@ -72,7 +72,21 @@ input, select, textarea {
 	@-ms-viewport {
 		width: device-width;
 	}
-
+	#logo { 
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+		border-radius: 15px 50px 30px;
+		width: 400px;
+		height: 200px;
+	 
+	}
+#h1logo{
+	border-bottom-width: 104px !important;
+	margin-bottom: 40px !important;
+	}
+	
 	body {
 		-ms-overflow-style: scrollbar;
 	}
@@ -120,7 +134,21 @@ input, select, textarea {
 	}
 
 		@media screen and (max-width: 1680px) {
-
+			#logo { 
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 40%;
+				border-radius: 15px 50px 30px;
+				width: 400px;
+				height: 200px;
+			 
+			}
+		#h1logo{
+			border-bottom-width: 104px !important;
+			margin-bottom: 40px !important;
+			}
+		
 			body, input, select, textarea {
 				font-size: 14pt;
 			}
@@ -128,6 +156,20 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+			#logo { 
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 40%;
+				border-radius: 15px 50px 30px;
+				width: 300px;
+				height: 150px;
+			 
+			}
+		#h1logo{
+			border-bottom-width: 104px !important;
+			margin-bottom: 40px !important;
+			}
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -3537,13 +3579,13 @@ input, select, textarea {
 				margin-right: auto;
 				width: 40%;
 				border-radius: 15px 50px 30px;
-				width: 400px;
-				height: 200px;
+				width: 300px;
+				height: 150px;
 			 
 			}
 		#h1logo{
 			border-bottom-width: 104px !important;
-			margin-bottom: 40px !important;
+			margin-bottom: 75px !important;
 			}
 		}
 
