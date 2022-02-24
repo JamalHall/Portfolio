@@ -122,6 +122,9 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+
+
+
 /* Type */
 
 	body, input, select, textarea {
@@ -4002,4 +4005,9 @@ input, select, textarea {
 			transform: none;
 			opacity: 1;
 			visibility: visible;
+		}
+
+		.resume {
+		width: 15em;
+    	height: 22em;
 		}
