@@ -3,6 +3,11 @@ body{
 	margin: 50px;
 	padding: 0px;
   }
+
+  .newLine.title {
+	display: block;
+  } 
+
   .space{
 	display: inline-block;
 	width: 20px;
@@ -35,12 +40,9 @@ body{
   .delay9{animation-delay: 0.9s;}
   .delay0{animation-delay: 0.0s;}
   
-  
-  
   @keyframes blur-anime {
 	0%  {filter: blur(0px);color:#9cc;}
 	40%  {filter: blur(10px);color:rgb(17, 100, 234);}
 	60%  {filter: blur(10px);color:rgb(182, 133, 26);}
 	100%  {filter: blur(00px);color:rgb(28, 178, 185);}
   }
-  
